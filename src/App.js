@@ -11,18 +11,6 @@ function App() {
   const [name, setName] = useState('');
   const [quantity, setQuantity] = useState(0);
   const [price, setPrice] = useState('');
-  // const [transactions, setTransactions] = useState([]);
-
-  // const listTransactions = transactions.map((transaction, i) => {
-  //   return <p key={i}>{transaction}</p>;
-  // });
-
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   const updatedTransactions = transactions;
-  //   updatedTransactions.push(`You paid ${payee} $${amount}.`);
-  //   setTransactions(updatedTransactions);
-  // };
 
   const handleSubmit = (event) => {
     event.preventDefault();
